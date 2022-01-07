@@ -25,15 +25,15 @@ extern "C" {
 JNIEXPORT void JNICALL
 Java_com_wzh_yuvwater_jni_YuvOsdUtils_addOsd(JNIEnv *env, jclass type, jbyteArray yuv_in_data,jbyteArray yvu_out_data, jstring date_);
 
-JNIEXPORT jcharArray JNICALL
+JNIEXPORT jbyteArray JNICALL
 Java_com_wzh_yuvwater_jni_YuvOsdUtils_argbIntToNV21Byte
         (JNIEnv *env, jclass jclazz, jintArray ints, jint width, jint height);
 
-JNIEXPORT jcharArray JNICALL
+JNIEXPORT jbyteArray JNICALL
 Java_com_wzh_yuvwater_jni_YuvOsdUtils_argbIntToNV12Byte
         (JNIEnv *env, jclass jclazz, jintArray ints, jint width, jint height);
 
-JNIEXPORT jcharArray JNICALL
+JNIEXPORT jbyteArray JNICALL
 Java_com_wzh_yuvwater_jni_YuvOsdUtils_argbIntToGrayNVByte
         (JNIEnv *env, jclass jclazz, jintArray ints, jint width, jint height);
 
