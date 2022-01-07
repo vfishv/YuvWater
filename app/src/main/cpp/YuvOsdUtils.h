@@ -39,8 +39,8 @@ Java_com_wzh_yuvwater_jni_YuvOsdUtils_argbIntToGrayNVByte
 
 
 JNIEXPORT void JNICALL
-Java_com_wzh_yuvwater_jni_YuvOsdUtils_nv21ToNv12(JNIEnv *env, jclass type, jcharArray nv21Src_,
-                                                 jcharArray nv12Dest_, jint width, jint height);
+Java_com_wzh_yuvwater_jni_YuvOsdUtils_nv21ToNv12(JNIEnv *env, jclass type, jbyteArray nv21Src_,
+                                                 jbyteArray nv12Dest_, jint width, jint height);
 
 
 JNIEXPORT void JNICALL

@@ -439,7 +439,7 @@ Java_com_wzh_yuvwater_jni_YuvOsdUtils_argbIntToNV12Byte(JNIEnv *env, jclass jcla
     int index = 0;
     for (int j = 0; j < height; j++) {
         for (int i = 0; i < width; i++) {
-            a = (argb[index] & 0xff000000) >> 24; // a is not used obviously
+            //a = (argb[index] & 0xff000000) >> 24; // a is not used obviously
             R = (argb[index] & 0xff0000) >> 16;
             G = (argb[index] & 0xff00) >> 8;
             B = argb[index] & 0xff;
